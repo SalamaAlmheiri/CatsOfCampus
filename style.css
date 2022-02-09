@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+html{
+  font-size: 14px;
+  font-family:'Montserrat', sans-serif;
+}
+
+body{
+  background-color: black;
+  text-align:center;
+}
+body ul,h1, h2, h3, h4, h5, h6, p {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+a{
+  text-decoration:none;
+  color: black;
+}
+a:hover{
+  color:red;
+}
+
+#header{
+  background-image: url("images/banner.jpg");
+  background-position: center;
+  height:200px;
+  text-align: center;
+}
+
+.title{
+  background-color: pink;
+  display: inline-block;
+  padding: 10px:
+}
+.title h1{
+  font-size: 3.2rem;
+}
+
+#nav ul{
+  text-align: center;
+}
+
+#nav ul li{
+  background-color: lightblue;
+  padding: 10px;
+  margin: auto 10px;
+  display: inline-block;
+}
+
+} */
+
+.wrapper{
+  min-width: 500px;
+  max-width: 900px;
+  display: inline-block;
+  margin: auto 20px;
+  text-align: left;
+}
+
+.section{
+  display:flex;
+  padding: 15px;
+  margin:40px;
+  filter: drop-shadow(2px 2px 4px #000000);
+  background-color: pink;
+}
+
+.section img{
+  width:300px;
+  height: 400px;
+}
+
+.section:hover{
+  background:beige
+}
+.desc{
+  padding: 20px;
+}
+
+.desc h3{
+  font-weight: bolder;
+  font-size:2.7rem;
+}
+
+.desc h5{
+  font-size:1rem;
+  margin-top: 5px;
+}
+
+#footer{
+  display:flex;
+  padding: 5px;
+  background-color: lightblue;
+  font-weight: bolder;
+  font-size: 5px;
+}
+
+#footer-space{
+  flex-grow: 4;
+}
+
+#copyright{
+  text-align: right;
+}
